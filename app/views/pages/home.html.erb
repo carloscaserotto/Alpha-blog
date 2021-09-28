@@ -1,5 +1,24 @@
-<h1>Welcome#home</h1>
-<p>Find me in app/views/welcome/home.html.erb</p>
+<div id="page-content">
+    <div class="container" id="home-container">
+        <div class="jumbotron jumbotron-fluid text-center text-white">
+            <div class="container">
+                <h1 class="display-4">Alpha Blog</h1>
+                    <p class="lead">
+                    This is a modified jumbotron that 
+                    occupies the entire horizontal 
+                    space of its parent.
+                    </p>
+                    <button type="button" class="btn btn-success">Sign Up</button>
+            </div>
+        </div>
+    </div>
 
-<%= link_to "Articles listing", articles_path %>   |
-<%= link_to "About page", about_path %>   
+</div>
+<footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white">
+    <div class="container text-center">
+      <small>Copyright &copy; <%= link_to "My Firt Web", "https://agile-anchorage-59367.herokuapp.com/", class: "text-white" %> </small>
+    </div>
+  </footer>
+</body>
+
+   
